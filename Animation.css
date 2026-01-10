@@ -1,0 +1,137 @@
+button{
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: red;
+}
+
+/* 
+transition property- background color
+
+transition duration - 3s
+
+transition timing function - linear
+                            ease
+                            ease in
+                            ease out
+                            ease in out
+*/
+
+.Box{
+
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: solid 2px black;
+    transition: background-color 3s linear;
+}
+
+.Box:hover
+{
+    background-color: blue;
+}
+
+.Box1 
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: solid 2px black;
+    transition: background-color is ease;
+}
+
+.Box2
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: solid 2px black;
+    transition: background-color is ease-in-out;
+}
+
+.Box1:hover
+{
+    background-color: blue;
+}
+
+.Box2:hover
+{
+    background-color: blue;
+}
+
+.Box3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: move 2s 5;
+
+}
+
+@keyframes move {
+    from{
+        transform:translate(0);
+    }
+    to 
+    {
+        transform: translate(200px);
+    }
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    border-radius: 100px;
+    animation: bounce 2s infinite alternate 5s;
+}
+
+@keyframes bounce {
+    0%
+    {
+        transform: translate(0);
+    }
+    50%
+    {
+        transform: translate(100px);
+    }
+    100%
+    {
+        transform: translate(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    height: 200px;
+
+}
